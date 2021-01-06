@@ -1,11 +1,11 @@
 #!/bin/bash
-# Script by : _Dreyannz_
+# Script by : THE GENTLEMEN 
 MYIP=$(wget -qO- ipv4.icanhazip.com);
 clear
 echo -e ""
 echo -e "\e[94m[][][]======================================[][][]"
 echo -e "\e[0m                                                   "
-echo -e "\e[93m          Simple VPS Panel by _Dreyannz_          "
+echo -e "\e[93m          Simple VPS Panel by THE GENTLEMEN          "
 echo -e "\e[94m                                                  "
 echo -e "\e[94m[][][]======================================[][][]\e[0m"
 echo -e "\e[0m                                                   "
@@ -36,18 +36,18 @@ apt-get install php5-cli -y > /dev/null 2>1;
 
 rm /etc/nginx/sites-enabled/default
 rm /etc/nginx/sites-available/default
-wget  --quiet -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/Dreyannz/AutoScriptVPS/master/Files/Nginx/nginx.conf"
+wget  --quiet -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/kimalale/AutoScriptVPS/master/Files/Nginx/nginx.conf"
 mkdir -p /home/vps/public_html
-wget  --quiet -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/Dreyannz/AutoScriptVPS/master/Files/Nginx/vps.conf"
+wget  --quiet -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/kimalale/AutoScriptVPS/master/Files/Nginx/vps.conf"
 sed -i 's/listen = \/var\/run\/php5-fpm.sock/listen = 127.0.0.1:9000/g' /etc/php5/fpm/pool.d/www.conf
 service php5-fpm restart
 service nginx restart
 case $Version in
 	1)
 	cd /home/vps/public_html
-	wget --quiet https://raw.githubusercontent.com/Dreyannz/VPS_Site/master/Version%201.0/index.php
-	wget --quiet https://raw.githubusercontent.com/Dreyannz/VPS_Site/master/Version%201.0/v1_server_details.php
-	wget --quiet https://www.ladyclare.ml/logo.png
+	wget --quiet https://raw.githubusercontent.com/kimalale/VPS_Site/master/Version%201.0/index.php
+	wget --quiet https://raw.githubusercontent.com/kimalale/VPS_Site/master/Version%201.0/v1_server_details.php
+	wget --quiet https://telegra.ph/file/313a12fd92cd81bbb38b4.jpg
 	clear
 	echo -e "\e[0m                                                   "
 	echo -e "\e[94m[][][]======================================[][][]"
@@ -63,9 +63,9 @@ case $Version in
 	;;
 	2)
 	cd /home/vps/public_html
-	wget --quiet https://raw.githubusercontent.com/Dreyannz/VPS_Site/master/Version%202.0/index.php
-	wget --quiet https://raw.githubusercontent.com/Dreyannz/VPS_Site/master/Version%202.0/v2_server_details.php
-	wget --quiet https://www.ladyclare.ml/logo.png
+	wget --quiet https://raw.githubusercontent.com/kimalale/VPS_Site/master/Version%202.0/index.php
+	wget --quiet https://raw.githubusercontent.com/kimale/VPS_Site/master/Version%202.0/v2_server_details.php
+	wget --quiet https://telegra.ph/file/313a12fd92cd81bbb38b4.jpg
 	clear
 	echo -e "\e[0m                                                   "
 	echo -e "\e[94m[][][]======================================[][][]"
