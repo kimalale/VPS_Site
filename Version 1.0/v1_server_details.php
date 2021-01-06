@@ -2,7 +2,7 @@
 
 
 /* Site Data */
-$site_name        = "LadyClare";
+$site_name        = "Exxotic VPS";
 $site_description = "Provider of Quality SSH, SSL, VPN Accounts";
 $site_template    = "lumen"; // (flatly, darkly, sketchy, lumen, materia)
 
@@ -12,9 +12,9 @@ $site_template    = "lumen"; // (flatly, darkly, sketchy, lumen, materia)
 /* Example: 1=>array(1=>"LadyClare Server 1","123.456.789","LadyClare","5"), */
 
 $server_lists_array=array(
-			1=>array(1=>"Sample 1","123.123.123.123","LadyClare","5"),
-			2=>array(1=>"Sample 2","123.123.123.123","LadyClare","5"),
-			3=>array(1=>"Sample 3","123.123.123.123","LadyClare","5"),
+			1=>array(1=>"Sample 1","123.123.123.123","Exxotic","5"),
+			2=>array(1=>"Sample 2","123.123.123.123","Exxotic","5"),
+			3=>array(1=>"Sample 3","123.123.123.123","Exxotic","5"),
 	);			
 
 
